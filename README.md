@@ -43,9 +43,9 @@ Evaluate the trained model on test data using accuracy, confusion matrix, and cl
 
 ## PROGRAM
 
-### Name: MOULIDHARAN.S
+### Name: THAMIZHARASU R
 
-### Register Number:212224240095
+### Register Number:212225233002
 
 ```
 from google.colab import drive
@@ -168,8 +168,8 @@ with torch.no_grad():
     # Select the prediction for the sample (first element)
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = label_encoder.inverse_transform([predicted_class_index])[0]
-print("Name:MOULIDHARAN.S")
-print("Register No:212224240095")
+print("Name:THAMIZHARASU R")
+print("Register No:212225233002")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[12].item()])[0]}')
 
@@ -189,11 +189,12 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 <img width="809" height="681" alt="image" src="https://github.com/user-attachments/assets/c798f620-5043-4622-b7ad-21941eb7799f" />
 
 ## Classification Report
-<img width="1435" height="1096" alt="IMG 1" src="https://github.com/user-attachments/assets/67177388-4028-46e5-9b82-dd271c1922d1" />
+
+<img width="1435" height="1096" alt="image" src="https://github.com/user-attachments/assets/2264b0ae-bcb7-45e9-9771-abbfd6904b79" />
 
 ### New Sample Data Prediction
 
-<img width="2113" height="744" alt="IMG 2" src="https://github.com/user-attachments/assets/32f6f675-bdb9-4016-b766-9bb9813c6e25" />
+<img width="2113" height="744" alt="image" src="https://github.com/user-attachments/assets/4bd1b1df-4fcf-441e-82e9-d5ac137ceacb" />
 
 
 ## RESULT
